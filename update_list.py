@@ -1,15 +1,25 @@
 #!/usr/bin/env python3
 """
-Refresh penny-list.json for the Penny Scanner app.
+Refresh penny-list.json for the Penny Scanner app (Home Depot, Lowe's, Dollar General, Walmart).
 
-USAGE (run weekly, e.g. Monday morning):
+USAGE (run weekly, e.g. Monday morning; or just ./deploy.sh which runs this then pushes):
     cd /workspace/penny-scanner
-    python3 update_list.py                 # fetch live sources, rewrite penny-list.json
+    python3 update_list.py                 # fetch every store, rewrite penny-list.json
+    python3 update_list.py --stores dollar_general,walmart   # refresh only some stores (others keep their data)
     python3 update_list.py --no-upc-check  # skip per-item Penny Recon page fetches (faster)
     python3 update_list.py --report-week 2026-10-12   # also pull that Penny Recon weekly receipts page
-    python3 update_list.py --days 30       # keep items last seen within N days (default 30)
+    python3 update_list.py --days 30       # HD: keep items last seen within N days (default 30)
 
-SOURCES (all public pages, no login):
+SAFETY: each store is fetched independently (Home Depot here, the rest in store_fetchers.py). If a store's
+source can't be fetched/parsed or returns too few items, that store keeps its previous items (marked
+"stale" with last_error in penny-list.json["stores"]). If every store fails, nothing is written.
+
+OTHER STORES (see store_fetchers.py):
+  Dollar General  Penny General (pennygeneral.net/lists, this penny week's lists) + PennyPinchinMom + GlitchNDealz
+  Lowe's          ClearanceFinds monthly Lowe's penny list (item #, model, observed 1-6 cent price, dated store rows)
+  Walmart         GlitchNDealz dated Walmart in-store clearance posts (item ID, clearance + comparison price)
+
+HOME DEPOT SOURCES (all public pages, no login):
   1. PennyCentral  https://www.pennycentral.com/penny-list
      The page embeds its item data (Next.js RSC payload) incl. sku, name, brand,
      upc, internetNumber, retailPrice, firstReportedAt, lastSeenAt, locations{state:count}.
@@ -34,6 +44,10 @@ exits without overwriting penny-list.json; save the page into raw/ and fix the p
 or add items by hand via manual_overrides.json.
 """
 import argparse, datetime as dt, html, json, os, re, sys, time, urllib.request
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import store_fetchers
+from store_fetchers import FetchError
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "penny-list.json")
@@ -155,20 +169,12 @@ def parse_receipts(page):
     return out
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--days", type=int, default=30)
-    ap.add_argument("--report-week", action="append", default=[], help="Penny Recon weekly report date (Monday, YYYY-MM-DD)")
-    ap.add_argument("--no-upc-check", action="store_true")
-    ap.add_argument("--offline", action="store_true", help="use cached pages in raw/ when present")
-    a = ap.parse_args()
-
-    today = dt.date.today()
+def build_home_depot(a, today):
     cutoff = today - dt.timedelta(days=a.days)
     pc = parse_pennycentral(fetch(PC_URL, "pc.html", a.offline))
     pr = parse_pennyrecon(fetch(PR_URL, "pr.html", a.offline))
     if len(pc) < 5 and len(pr) < 5:
-        sys.exit("Parsing failed (site layout changed?). penny-list.json NOT overwritten.")
+        raise FetchError("Home Depot: PennyCentral and Penny Recon both parsed < 5 items (layout changed?)")
 
     receipts, weeks_ok = {}, []
     for wk in a.report_week:
@@ -248,32 +254,134 @@ def main():
         it["notes"] = ""
         items.append(it)
 
+    for it in items:
+        it["store"] = "home_depot"
+        it["id"] = "hd:" + it["sku"]
+        it["price"] = 0.01
+    sources = [{"name": "PennyCentral", "url": PC_URL}, {"name": "Penny Recon", "url": PR_URL}] + \
+        [{"name": f"Penny Recon weekly report {w}", "url": f"https://www.pennyrecon.com/reports/{w}/"} for w in weeks_ok]
+    return {"items": items, "sources": sources, "as_of": today.isoformat(),
+            "note": f"Reported at $0.01 in the last {a.days} days."}
+
+
+STORE_NAMES = {"home_depot": "Home Depot", "lowes": "Lowe's", "dollar_general": "Dollar General", "walmart": "Walmart"}
+MIN_ITEMS = {"home_depot": 10, "dollar_general": 3, "lowes": 5, "walmart": 1}
+# When a store's refresh fails we keep its previous items, but drop ones older than this (days since last seen/listed).
+KEEP_DAYS = {"home_depot": 45, "dollar_general": 21, "lowes": 60, "walmart": 30}
+DISCLAIMER = ("Crowdsourced reports, not the store's register. The real price only shows when the item is scanned at "
+              "checkout, and stores are not required to sell penny or clearance items.")
+
+
+def load_previous():
+    if not os.path.exists(OUT):
+        return {}, {}
+    try:
+        old = json.load(open(OUT))
+    except ValueError:
+        return {}, {}
+    by_store = {}
+    for it in old.get("items", []):
+        by_store.setdefault(it.get("store", "home_depot"), []).append(it)
+    meta = old.get("stores") or {"home_depot": {"as_of": old.get("updated"), "sources": old.get("sources", [])}}
+    return by_store, meta
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--days", type=int, default=30)
+    ap.add_argument("--report-week", action="append", default=[], help="Penny Recon weekly report date (Monday, YYYY-MM-DD)")
+    ap.add_argument("--no-upc-check", action="store_true")
+    ap.add_argument("--offline", action="store_true", help="use cached pages in raw/ when present")
+    ap.add_argument("--stores", default="home_depot,dollar_general,lowes,walmart",
+                    help="comma list of stores to refresh; others keep their previous data")
+    a = ap.parse_args()
+
+    today = dt.date.today()
+    prev_items, prev_meta = load_previous()
+    wanted = [s.strip() for s in a.stores.split(",") if s.strip()]
+    stores, items, refreshed, failed = {}, [], [], []
+    for key in STORE_NAMES:
+        res, err = None, None
+        if key in wanted:
+            print(f"[{key}] fetching…")
+            try:
+                if key == "home_depot":
+                    res = build_home_depot(a, today)
+                else:
+                    res = store_fetchers.FETCHERS[key](today, offline=a.offline)
+                if len(res["items"]) < MIN_ITEMS[key]:
+                    raise FetchError(f"only {len(res['items'])} items (minimum {MIN_ITEMS[key]})")
+            except (FetchError, Exception) as e:  # never let one broken source wipe good data
+                err = f"{type(e).__name__}: {e}"
+                res = None
+        if res:
+            refreshed.append(key)
+            for it in res["items"]:
+                it["store"] = key
+            items += res["items"]
+            stores[key] = {"name": STORE_NAMES[key], "as_of": res["as_of"], "fetched": today.isoformat(),
+                           "count": len(res["items"]), "sources": res["sources"], "note": res.get("note", ""), "stale": False}
+            print(f"[{key}] OK: {len(res['items'])} items")
+        else:
+            old = prev_items.get(key, [])
+            keep_after = (today - dt.timedelta(days=KEEP_DAYS[key])).isoformat()
+            old = [it for it in old if (it.get("last_seen") or it.get("listed") or today.isoformat()) >= keep_after]
+            if err:
+                failed.append(key)
+                print(f"[{key}] FAILED ({err}); keeping {len(old)} previous items")
+            for it in old:
+                it.setdefault("store", key); it.setdefault("id", f"{key[:2]}:{it.get('sku')}")
+                it.setdefault("price", 0.01)
+            items += old
+            if old:
+                m = dict(prev_meta.get(key, {}))
+                m.update({"name": STORE_NAMES[key], "count": len(old), "stale": bool(err) or m.get("stale", False)})
+                if err:
+                    m["last_error"] = f"{today.isoformat()}: {err}"
+                stores[key] = m
+    if not refreshed and wanted:
+        sys.exit("Every requested store failed to refresh. penny-list.json NOT overwritten.")
+
     ov_path = os.path.join(HERE, "manual_overrides.json")
     if os.path.exists(ov_path):
         ov = json.load(open(ov_path))
         for add in ov.pop("add", []):
-            add["sku"] = digits(add["sku"]); add.setdefault("sku_display", sku_display(add["sku"]))
+            add.setdefault("store", "home_depot")
+            add["sku"] = digits(add.get("sku")); add.setdefault("sku_display", sku_display(add["sku"]) if add["store"] == "home_depot" else add["sku"])
+            add.setdefault("id", f"{add['store']}:{add['sku'] or add.get('upc')}"); add.setdefault("price", 0.01)
             items.append(add)
         for it in items:
-            it.update(ov.get(it["sku"], {}))
+            it.update(ov.get(it.get("id"), {}))
+            if it.get("store") == "home_depot":
+                it.update(ov.get(it.get("sku"), {}))
 
-    items.sort(key=lambda i: (-(i.get("reports") or 0), i["sku"]))
+    for it in items:
+        it.setdefault("upc", None); it.setdefault("notes", ""); it.setdefault("sources", [])
+        it.setdefault("florida_reports", (it.get("states") or {}).get("FL", 0))
+    rank = {k: i for i, k in enumerate(STORE_NAMES)}
+    items.sort(key=lambda i: (rank.get(i["store"], 9), -(i.get("reports") or 0), str(i.get("sku") or i.get("upc") or i["name"])))
     data = {
-        "schema": 1,
+        "schema": 2,
         "updated": today.isoformat(),
         "window_days": a.days,
+        "home_area": {"city": "Clermont", "state": "FL", "zip": "34711"},
         "home_store": {"name": "Home Depot Clermont", "number": "6375", "state": "FL"},
-        "sources": [
-            {"name": "PennyCentral", "url": PC_URL},
-            {"name": "Penny Recon", "url": PR_URL},
-        ] + [{"name": f"Penny Recon weekly report {w}", "url": f"https://www.pennyrecon.com/reports/{w}/"} for w in weeks_ok],
-        "disclaimer": "Crowdsourced reports, not Home Depot's register. The real price only shows when the item is scanned at checkout, and stores are not required to sell penny items.",
+        "stores": stores,
+        "sources": [dict(s, store=k) for k, m in stores.items() for s in m.get("sources", [])],
+        "disclaimer": DISCLAIMER,
         "items": items,
     }
-    json.dump(data, open(OUT, "w"), indent=1, ensure_ascii=False)
-    v = sum(i.get("upc_verified") for i in items); u = sum(bool(i.get("upc")) for i in items)
-    print(f"Wrote {OUT}: {len(items)} items, {u} with UPC ({v} cross-verified), "
-          f"{sum(1 for i in items if i.get('florida_reports'))} with Florida reports.")
+    tmp = OUT + ".tmp"
+    json.dump(data, open(tmp, "w"), indent=1, ensure_ascii=False)
+    os.replace(tmp, OUT)
+    print(f"Wrote {OUT}: {len(items)} items")
+    for k, m in stores.items():
+        st = [i for i in items if i["store"] == k]
+        print(f"  {m['name']:<15} {len(st):>4} items, {sum(bool(i.get('upc')) for i in st):>3} with UPC, "
+              f"{sum(1 for i in st if i.get('florida_reports')):>3} with FL reports, as of {m.get('as_of')}"
+              + ("  [STALE: kept previous data]" if m.get("stale") else ""))
+    if failed:
+        print("WARNING: these stores failed and kept old data: " + ", ".join(failed))
 
 
 if __name__ == "__main__":

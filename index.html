@@ -51,12 +51,17 @@ input[type=text],input[type=search],select{width:100%;font-size:17px;padding:13p
 .li .m{font-size:13px;color:var(--mut)}
 a{color:#64b5ff}
 code{font-family:ui-monospace,Menlo,monospace;font-size:15px;color:#ffcf99}
+.seg{display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:2px}
+.seg button{flex:none;border:1px solid var(--line);background:#000;color:var(--mut);border-radius:999px;padding:9px 13px;font-size:14px;font-weight:600}
+.seg button.on{background:var(--or);border-color:var(--or);color:#fff}
+.tag.st{color:#fff} .tag.home_depot{background:#f96302} .tag.lowes{background:#004990} .tag.dollar_general{background:#c9a400;color:#111} .tag.walmart{background:#0071ce}
+.tag.near{background:#5e2ca5;color:#fff}
 #toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#333;color:#fff;padding:10px 16px;border-radius:999px;font-size:14px;z-index:9}
 </style>
 </head>
 <body>
-<div style="position:sticky;top:0;z-index:5"><header><div><h1>🪙 Penny Scanner</h1><small id="storeLine">Home Depot Clermont #6375</small></div><small id="updated">loading…</small></header>
-<nav><button id="tabScan" class="on">Scan</button><button id="tabList">Penny List</button></nav></div>
+<div style="position:sticky;top:0;z-index:5"><header><div><h1>🪙 Penny Scanner</h1><small id="storeLine">Clermont, FL · HD · Lowe&#39;s · DG · Walmart</small></div><small id="updated">loading…</small></header>
+<nav><button id="tabScan" class="on">Scan</button><button id="tabList">Deals List</button></nav></div>
 <main>
  <section id="scanView">
   <div id="videoWrap" class="hidden"><video id="video" playsinline muted autoplay></video><div id="reticle"></div><div id="scanHint">Center the barcode in the box</div></div>
@@ -66,22 +71,24 @@ code{font-family:ui-monospace,Menlo,monospace;font-size:15px;color:#ffcf99}
    <label class="btn sec" style="text-align:center">🖼️ Scan from photo<input id="photoInput" type="file" accept="image/*" capture="environment" hidden></label>
   </div>
   <div class="card">
-   <label for="manual" class="small mut">Or type the SKU / UPC from the label (dashes OK)</label>
+   <label for="manual" class="small mut">Or type the UPC, SKU, Lowe's item # or Walmart item ID (dashes OK)</label>
    <form id="manualForm" class="row" style="margin-top:6px"><input id="manual" type="text" inputmode="numeric" autocomplete="off" placeholder="e.g. 1008-625-777"><button class="btn" style="flex:0 0 90px">Check</button></form>
   </div>
   <div id="result"></div>
   <div id="history" class="card hidden"><div class="small mut">Recent checks</div><div id="histList"></div></div>
  </section>
  <section id="listView" class="hidden">
-  <input id="search" type="search" placeholder="Search name, brand, SKU, UPC…">
+  <div class="seg" id="storeSeg" role="tablist" aria-label="Store"><button data-store="all" class="on">All</button><button data-store="home_depot">Home Depot</button><button data-store="lowes">Lowe's</button><button data-store="dollar_general">Dollar General</button><button data-store="walmart">Walmart</button></div>
+  <input id="search" type="search" placeholder="Search name, brand, SKU, UPC…" style="margin-top:8px">
+  <div id="storeNote" class="small mut" style="margin-top:8px"></div>
   <div class="row" style="margin-top:8px">
-   <select id="sort"><option value="recent">Last seen</option><option value="reports">Most reports</option><option value="fl">Florida first</option><option value="price">Highest retail</option><option value="name">Name A–Z</option></select>
-   <select id="filter"><option value="all">All items</option><option value="fl">Florida reports</option><option value="upc">Has UPC</option><option value="rc">Receipt-checked</option></select>
+   <select id="sort"><option value="recent">Last seen</option><option value="reports">Most reports</option><option value="fl">Florida first</option><option value="price">Highest retail</option><option value="store">Store</option><option value="name">Name A–Z</option></select>
+   <select id="filter"><option value="all">All items</option><option value="fl">Florida reports</option><option value="upc">Has UPC</option><option value="rc">Receipt-checked (HD)</option><option value="near">Near Clermont</option></select>
   </div>
   <div id="count" class="small mut" style="margin:10px 0 0"></div>
   <div id="list"></div>
  </section>
- <p class="small mut" style="margin-top:24px">Data: crowdsourced reports from <a href="https://www.pennycentral.com/penny-list" target="_blank" rel="noopener">PennyCentral</a> and <a href="https://www.pennyrecon.com/" target="_blank" rel="noopener">Penny Recon</a>. Not affiliated with The Home Depot. A list match is a lead, not a price.</p>
+ <p class="small mut" style="margin-top:24px">Data: crowdsourced reports. Home Depot: <a href="https://www.pennycentral.com/penny-list" target="_blank" rel="noopener">PennyCentral</a>, <a href="https://www.pennyrecon.com/" target="_blank" rel="noopener">Penny Recon</a>. Lowe's: <a href="https://clearancefinds.com/lowes-penny-deals/" target="_blank" rel="noopener">ClearanceFinds</a>. Dollar General: <a href="https://pennygeneral.net/lists" target="_blank" rel="noopener">Penny General</a>, <a href="https://pennypinchinmom.com/dollar-general-penny-list/" target="_blank" rel="noopener">PennyPinchinMom</a>, <a href="https://glitchndealz.com/penny-list-for-dollar-general" target="_blank" rel="noopener">GlitchNDealz</a>. Walmart: <a href="https://glitchndealz.com/category/walmart/" target="_blank" rel="noopener">GlitchNDealz</a>. Not affiliated with any store. A list match is a lead, not a price.</p>
 </main>
 <div id="toast" class="hidden"></div>
 <script src="vendor/zxing.min.js"></script>

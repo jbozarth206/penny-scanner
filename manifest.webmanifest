@@ -1,7 +1,7 @@
 {
-  "name": "Penny Scanner – Home Depot",
+  "name": "Penny Scanner",
   "short_name": "Penny Scan",
-  "description": "Scan a Home Depot item and check it against the crowdsourced penny list.",
+  "description": "Scan an item and check it against crowdsourced penny and clearance lists for Home Depot, Lowe's, Dollar General and Walmart.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

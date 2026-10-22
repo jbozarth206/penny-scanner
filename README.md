@@ -1,13 +1,23 @@
-# Penny Scanner (Home Depot Clermont #6375)
+# Penny Scanner (Clermont, FL: Home Depot, Lowe's, Dollar General, Walmart)
 
-Static PWA: scan a barcode (or take a photo, or type a SKU/UPC) and check it against the crowdsourced Home Depot penny list.
+Static PWA: scan a barcode (or take a photo, or type a UPC / SKU / Lowe's item # / Walmart item ID) and check it
+against crowdsourced penny lists (Home Depot, Lowe's, Dollar General) and Walmart clearance leads.
+Every item has a store, a date and its source URL(s). Nothing is invented: codes and prices come from the sources.
 
-Files: index.html, app.js, vendor/zxing.min.js (@zxing/library 0.21.3, vendored), penny-list.json, manifest.webmanifest,
-sw.js (offline cache), icon-192/512.png, apple-touch-icon.png, update_list.py (weekly refresh), raw/ (cached source pages, don't deploy).
+Files: index.html, app.js, vendor/zxing.min.js (@zxing/library 0.21.3, vendored), penny-list.json (schema 2, all stores),
+manifest.webmanifest, sw.js (offline cache), icons, update_list.py (refresh, Home Depot fetcher + combiner),
+store_fetchers.py (Dollar General, Lowe's, Walmart fetchers), deploy.sh, raw/ (cached source pages, not deployed).
 
-Weekly refresh:  python3 update_list.py --report-week <latest Monday with a Penny Recon report>
+Sources
+- Home Depot: PennyCentral, Penny Recon (+ weekly receipts report)
+- Dollar General: Penny General (pennygeneral.net, this penny week's lists), PennyPinchinMom, GlitchNDealz
+- Lowe's: ClearanceFinds monthly Lowe's penny list (item #, observed 1-6 cent prices, dated store rows)
+- Walmart: GlitchNDealz dated in-store clearance posts (item ID + clearance and comparison price). No free source
+  publishes store-level Walmart hidden clearance for Clermont; RebelSavings (free, but JS + Turnstile) and the
+  Walmart app's "Check a price" scanner are the manual options.
+
+Weekly refresh:  ./deploy.sh [--report-week <latest Monday with a Penny Recon report>]
 Local test:      python3 -m http.server 8000   (camera works on http://localhost only; iPhone needs HTTPS)
-Tests:           /home/box/pwvenv/bin/python /workspace/penny-test/test.py
+Tests:           /home/box/pwvenv/bin/python /workspace/penny-test/test.py   (URL=... to test the live site)
 
-Deploy only: index.html app.js sw.js manifest.webmanifest penny-list.json *.png vendor/
-After refreshing the list, bump CACHE in sw.js only if app files change (penny-list.json is network-first).
+Bump CACHE in sw.js whenever app files (index.html, app.js, sw.js, manifest) change; penny-list.json is network-first.
