@@ -1,0 +1,3602 @@
+{
+ "schema": 1,
+ "updated": "2026-10-21",
+ "window_days": 30,
+ "home_store": {
+  "name": "Home Depot Clermont",
+  "number": "6375",
+  "state": "FL"
+ },
+ "sources": [
+  {
+   "name": "PennyCentral",
+   "url": "https://www.pennycentral.com/penny-list"
+  },
+  {
+   "name": "Penny Recon",
+   "url": "https://www.pennyrecon.com/"
+  },
+  {
+   "name": "Penny Recon weekly report 2026-10-05",
+   "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+  }
+ ],
+ "disclaimer": "Crowdsourced reports, not Home Depot's register. The real price only shows when the item is scanned at checkout, and stores are not required to sell penny items.",
+ "items": [
+  {
+   "sku": "1009074829",
+   "sku_display": "1009-074-829",
+   "name": "ONE+ HP 18V Brushless Bagless Cordless Pet Mesh Filter Stick Vacuum Cleaner (Tool Only)",
+   "brand": "RYOBI",
+   "model": null,
+   "retail": 199.0,
+   "internet_number": null,
+   "reports": 237,
+   "states": {
+    "NY": 23,
+    "WA": 7,
+    "AZ": 13,
+    "PA": 9,
+    "NJ": 5,
+    "MA": 9,
+    "VA": 5,
+    "GA": 11,
+    "CA": 39,
+    "TX": 22,
+    "MD": 9,
+    "MI": 6,
+    "WI": 5,
+    "FL": 17,
+    "CT": 4,
+    "TN": 6,
+    "NC": 8,
+    "IA": 2,
+    "OH": 8,
+    "MN": 3,
+    "NH": 3,
+    "IL": 8,
+    "ID": 1,
+    "OR": 1,
+    "OK": 2,
+    "UT": 2,
+    "NM": 1,
+    "AL": 2,
+    "CO": 3,
+    "ME": 1,
+    "LA": 1,
+    "GU": 1
+   },
+   "first_reported": "2025-12-30",
+   "last_seen": "2026-09-22",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1009074829/"
+    }
+   ],
+   "upc": "0033287212446",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 17,
+   "state_count": 32,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1007712596",
+   "sku_display": "1007-712-596",
+   "name": "Packout 19.5 in. W x 14.7 in. H x 14.5 in. D Cabinet in Red (1-Piece)",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 149.0,
+   "internet_number": null,
+   "reports": 119,
+   "states": {
+    "CA": 24,
+    "MO": 5,
+    "ID": 1,
+    "NJ": 7,
+    "FL": 10,
+    "NV": 3,
+    "KS": 3,
+    "MI": 11,
+    "NY": 2,
+    "TX": 13,
+    "PA": 6,
+    "AL": 2,
+    "CO": 1,
+    "WI": 2,
+    "OR": 1,
+    "CT": 4,
+    "IN": 1,
+    "AZ": 2,
+    "MS": 3,
+    "OH": 2,
+    "IL": 3,
+    "WA": 1,
+    "MA": 2,
+    "OK": 1,
+    "TN": 3,
+    "UT": 1,
+    "NC": 4,
+    "GA": 1,
+    "AR": 1
+   },
+   "first_reported": "2026-02-01",
+   "last_seen": "2026-09-23",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007712596/"
+    }
+   ],
+   "upc": "0045242617593",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 10,
+   "state_count": 29,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1008625777",
+   "sku_display": "1008-625-777",
+   "name": "ONE+ 18V Cordless 6 Gal. Wet Dry Vacuum (Tool Only)",
+   "brand": "RYOBI",
+   "model": null,
+   "retail": 159,
+   "internet_number": "322603585",
+   "reports": 54,
+   "states": {
+    "TX": 6,
+    "WI": 3,
+    "NY": 7,
+    "FL": 5,
+    "IL": 6,
+    "WA": 2,
+    "MI": 2,
+    "IN": 2,
+    "NC": 1,
+    "SC": 1,
+    "AL": 2,
+    "MA": 2,
+    "CO": 1,
+    "GA": 3,
+    "AZ": 3,
+    "NJ": 2,
+    "CA": 3,
+    "KY": 1,
+    "TN": 1,
+    "NH": 1
+   },
+   "first_reported": "2026-04-22",
+   "last_seen": "2026-10-20",
+   "image": "https://images.thdstatic.com/productImages/53554443-700b-4209-a61d-86ed1510137c/svn/greens-ryobi-wet-dry-vacuums-pcl735b-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008625777/"
+    }
+   ],
+   "upc": "0033287199853",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 5,
+   "state_count": 20,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1012388248",
+   "sku_display": "1012-388-248",
+   "name": "800 Lumen LED Rechargeable Detachable Tripod Work Light",
+   "brand": "Husky",
+   "model": "K40526",
+   "retail": 19.88,
+   "internet_number": "335104182",
+   "reports": 41,
+   "states": {
+    "NY": 5,
+    "CA": 7,
+    "MI": 1,
+    "NJ": 6,
+    "WA": 5,
+    "KS": 1,
+    "TN": 3,
+    "PA": 1,
+    "OR": 2,
+    "CO": 2,
+    "TX": 6,
+    "MD": 1,
+    "LA": 1
+   },
+   "first_reported": "2026-08-08",
+   "last_seen": "2026-10-12",
+   "image": "https://images.thdstatic.com/productImages/820881bc-6a07-4009-89d8-a940a267e55f/svn/husky-work-lights-k40526-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012388248/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 13,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1014119123",
+   "sku_display": "1014-119-123",
+   "name": "UltraBrite Hex Lights 16Pack 16.5 in./1.45ft Integrated LED Strip Light Fixture White Dimmable 16000LM 5000K Wall Remote",
+   "brand": "Enbrighten",
+   "model": null,
+   "retail": 99.75,
+   "internet_number": "335347113",
+   "reports": 41,
+   "states": {
+    "ME": 2,
+    "TX": 5,
+    "CA": 7,
+    "VA": 3,
+    "NJ": 3,
+    "WA": 1,
+    "AR": 2,
+    "GA": 3,
+    "MS": 1,
+    "AL": 1,
+    "FL": 4,
+    "NH": 1,
+    "LA": 2,
+    "AZ": 2,
+    "MI": 3,
+    "NY": 1
+   },
+   "first_reported": "2026-08-25",
+   "last_seen": "2026-10-21",
+   "image": "https://images.thdstatic.com/productImages/ba29582a-3530-49c5-949b-8672727eeab7/svn/white-enbrighten-strip-light-fixtures-85726-dk1-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014119123/"
+    }
+   ],
+   "upc": "030878857260",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 4,
+   "state_count": 16,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1003565875",
+   "sku_display": "1003-565-875",
+   "name": "Wireless TV Headphones in Black",
+   "brand": "OWN ZONE",
+   "model": null,
+   "retail": 35.98,
+   "internet_number": "306315853",
+   "reports": 39,
+   "states": {
+    "MD": 3,
+    "MA": 1,
+    "IL": 8,
+    "WA": 1,
+    "NY": 2,
+    "CA": 8,
+    "KY": 3,
+    "VA": 1,
+    "FL": 5,
+    "RI": 2,
+    "PA": 2,
+    "WV": 1,
+    "NE": 1,
+    "TX": 1
+   },
+   "first_reported": "2026-09-09",
+   "last_seen": "2026-10-21",
+   "image": "https://images.thdstatic.com/productImages/63c9889c-576b-463f-8960-b56b3c3a1dd2/svn/own-zone-headphones-wn011112-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1003565875/"
+    }
+   ],
+   "upc": "740275049662",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 5,
+   "state_count": 14,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1015012879",
+   "sku_display": "1015-012-879",
+   "name": "ONE+ 18V Cordless 4 in. Clamp Fan Tools Only (2-Pack)",
+   "brand": "RYOBI",
+   "model": null,
+   "retail": 59.97,
+   "internet_number": "339193778",
+   "reports": 30,
+   "states": {
+    "NJ": 2,
+    "NY": 3,
+    "MA": 2,
+    "AZ": 1,
+    "TX": 4,
+    "SC": 1,
+    "NC": 1,
+    "GA": 2,
+    "AL": 1,
+    "FL": 4,
+    "CA": 4,
+    "MS": 1,
+    "TN": 1,
+    "IL": 2,
+    "WA": 1
+   },
+   "first_reported": "2026-09-15",
+   "last_seen": "2026-10-15",
+   "image": "https://images.thdstatic.com/productImages/126e0968-ce35-4ccd-bf29-664b88149c48/svn/ryobi-jobsite-fans-pcf02b2p-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1015012879/"
+    }
+   ],
+   "upc": "0033287242221",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 4,
+   "state_count": 15,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "168674",
+   "sku_display": "168-674",
+   "name": "800 lb. Capacity D-Handle Hand Truck",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 79,
+   "internet_number": "100030159",
+   "reports": 17,
+   "states": {
+    "IL": 6,
+    "MI": 2,
+    "TN": 2,
+    "TX": 2,
+    "FL": 1,
+    "NJ": 1,
+    "CA": 1,
+    "MA": 1,
+    "MS": 1
+   },
+   "first_reported": "2026-09-23",
+   "last_seen": "2026-10-21",
+   "image": "https://images.thdstatic.com/productImages/49981bea-07e3-4c94-81e8-c65ba9d9ac24/svn/milwaukee-hand-trucks-hd800p-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/168674/"
+    }
+   ],
+   "upc": "646072605028",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 1,
+   "state_count": 9,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1001411556",
+   "sku_display": "1001-411-556",
+   "name": "Gerber Gator Machete Jr with 10.75 in. Blade (Sheath Included)",
+   "brand": "Gerber",
+   "model": null,
+   "retail": 31.87,
+   "internet_number": null,
+   "reports": 15,
+   "states": {
+    "NJ": 2,
+    "PA": 1,
+    "TX": 3,
+    "SC": 1,
+    "GA": 2,
+    "MS": 2,
+    "HI": 2,
+    "MI": 1,
+    "AR": 1
+   },
+   "first_reported": "2026-09-09",
+   "last_seen": "2026-10-01",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1001411556/"
+    }
+   ],
+   "upc": "0013658154872",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 9,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1007466112",
+   "sku_display": "1007-466-112",
+   "name": "5.2 lbs. Every Night Firelogs (4-Pack)",
+   "brand": "Duraflame",
+   "model": null,
+   "retail": 24.98,
+   "internet_number": null,
+   "reports": 14,
+   "states": {
+    "MD": 1,
+    "CA": 3,
+    "MN": 2,
+    "MI": 1,
+    "PA": 2,
+    "NH": 1,
+    "MA": 1,
+    "WA": 1,
+    "MO": 1,
+    "NJ": 1
+   },
+   "first_reported": "2026-09-10",
+   "last_seen": "2026-09-25",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007466112/"
+    }
+   ],
+   "upc": "0041137045175",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 10,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006967311",
+   "sku_display": "1006-967-311",
+   "name": "POWERSERIES+ 20-Volt MAX Lithium-Ion Cordless Bagless Stick Vacuum Cleaner",
+   "brand": "BLACK+DECKER",
+   "model": null,
+   "retail": 99.99,
+   "internet_number": null,
+   "reports": 12,
+   "states": {
+    "CA": 2,
+    "NY": 3,
+    "MI": 2,
+    "IL": 1,
+    "TX": 2,
+    "MA": 1,
+    "VT": 1
+   },
+   "first_reported": "2026-09-23",
+   "last_seen": "2026-10-10",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006967311/"
+    }
+   ],
+   "upc": "885911743693",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1015053805",
+   "sku_display": "1015-053-805",
+   "name": "5/8 in. dia. x 100 ft. Contractor Grade Garden Hose",
+   "brand": "Flexon",
+   "model": null,
+   "retail": 24.98,
+   "internet_number": "339901942",
+   "reports": 11,
+   "states": {
+    "VA": 3,
+    "WA": 1,
+    "FL": 1,
+    "LA": 1,
+    "PA": 2,
+    "IL": 2,
+    "TN": 1
+   },
+   "first_reported": "2026-09-10",
+   "last_seen": "2026-10-16",
+   "image": "https://images.thdstatic.com/productImages/ff6c09cc-8f39-4b79-b2db-e8cc2d5357af/svn/black-flexon-garden-hoses-wcm58100hd-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1015053805/"
+    }
+   ],
+   "upc": "0044882106467",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 1,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "215583",
+   "sku_display": "215-583",
+   "name": "12 inch Rough In Two-Piece 1.1 GPF/1.6 GPF Dual Flush Elongated Toilet in White Seat Included",
+   "brand": "Glacier Bay",
+   "model": "T0338MW",
+   "retail": 99,
+   "internet_number": "100676582",
+   "reports": 11,
+   "states": {
+    "NY": 2,
+    "TX": 1,
+    "MI": 1,
+    "GA": 3,
+    "NC": 1,
+    "FL": 1,
+    "AZ": 1,
+    "IL": 1
+   },
+   "first_reported": "2026-09-27",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/6fe20a93-2ab3-453c-b589-a96123a18b20/svn/white-glacier-bay-two-piece-toilets-n2316-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/215583/"
+    }
+   ],
+   "upc": "732291231619",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 1,
+   "state_count": 8,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1003951328",
+   "sku_display": "1003-951-328",
+   "name": "Highline Arc The Complete Solution 2-Piece 1.28 GPF Single Flush Elongated Toilet in White (Seat Included)",
+   "brand": "KOHLER",
+   "model": null,
+   "retail": 239.0,
+   "internet_number": null,
+   "reports": 9,
+   "states": {
+    "IL": 2,
+    "MO": 1,
+    "MA": 1,
+    "GA": 2,
+    "LA": 1,
+    "VA": 1,
+    "PA": 1
+   },
+   "first_reported": "2026-09-06",
+   "last_seen": "2026-09-22",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1003951328/"
+    }
+   ],
+   "upc": "0885612760678",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 7,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1007473601",
+   "sku_display": "1007-473-601",
+   "name": "ONE+ HP 18V Cordless Pet Stick Vacuum Cleaner Kit w/ Battery, Charger, & ONE+ Cordless SWIFTClean Spot Cleaner",
+   "brand": "RYOBI",
+   "model": null,
+   "retail": 313.0,
+   "internet_number": null,
+   "reports": 9,
+   "states": {
+    "IN": 2,
+    "TN": 2,
+    "MI": 2,
+    "GA": 1,
+    "CA": 2
+   },
+   "first_reported": "2026-09-21",
+   "last_seen": "2026-10-10",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007473601/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 5,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006037305",
+   "sku_display": "1006-037-305",
+   "name": "Decora Smart Wi-Fi Dimmer (2nd Gen) No Hub Required, Works with Google, Alexa, HomeKit, Anywhere Companions, White",
+   "brand": "Leviton",
+   "model": null,
+   "retail": 51.4,
+   "internet_number": "315781986",
+   "reports": 7,
+   "states": {
+    "GA": 4,
+    "WA": 1,
+    "CT": 1,
+    "NC": 1
+   },
+   "first_reported": "2026-05-20",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/94742023-7c33-489d-9df4-e6c33e567a32/svn/white-leviton-dimmers-r02-d26hd-1rw-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006037305/"
+    }
+   ],
+   "upc": "0078477363225",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 4,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1008142318",
+   "sku_display": "1008-142-318",
+   "name": "ONE+ 18V Bagless Cordless Mesh Filter Stick Vacuum Cleaner (Tool Only)",
+   "brand": "RYOBI",
+   "model": "PCL720B",
+   "retail": 129,
+   "internet_number": "321546266",
+   "reports": 7,
+   "states": {
+    "TX": 1,
+    "IL": 3,
+    "CA": 1,
+    "AL": 1,
+    "WA": 1
+   },
+   "first_reported": "2026-06-24",
+   "last_seen": "2026-10-21",
+   "image": "https://images.thdstatic.com/productImages/e68266df-24d0-4159-8030-376f211f3537/svn/ryobi-stick-vacuums-pcl720b-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008142318/"
+    }
+   ],
+   "upc": "033287212439",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 5,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1005874031",
+   "sku_display": "1005-874-031",
+   "name": "Milwaukee PACKOUT 22.3 in. Black Resin Racking Kit with Metal Reinforced Frame and Integrated Handle",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 179.0,
+   "internet_number": null,
+   "reports": 6,
+   "states": {
+    "PA": 1,
+    "TX": 3,
+    "AK": 1,
+    "NM": 1
+   },
+   "first_reported": "2026-09-04",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005874031/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "0045242524150",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 4,
+   "notes": ""
+  },
+  {
+   "sku": "1008631746",
+   "sku_display": "1008-631-746",
+   "name": "800 lbs. Capacity 2-in-1 Convertible Hand Truck",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 159.98,
+   "internet_number": null,
+   "reports": 6,
+   "states": {
+    "FL": 3,
+    "NY": 1,
+    "CA": 1,
+    "RI": 1,
+    "CT": 1
+   },
+   "first_reported": "2026-09-12",
+   "last_seen": "2026-09-27",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008631746/"
+    }
+   ],
+   "upc": "646072082010",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 3,
+   "state_count": 5,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006037306",
+   "sku_display": "1006-037-306",
+   "name": "Decora Smart 15 Amp Wi-Fi Smart Rocker Light Switch with Alexa, Google and HomeKit 2nd Gen, White",
+   "brand": "Leviton",
+   "model": null,
+   "retail": 44.39,
+   "internet_number": null,
+   "reports": 5,
+   "states": {
+    "CA": 1,
+    "GA": 3,
+    "MI": 1
+   },
+   "first_reported": "2026-05-20",
+   "last_seen": "2026-10-11",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006037306/"
+    }
+   ],
+   "upc": "0078477363232",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006104733",
+   "sku_display": "1006-104-733",
+   "name": "Floodlight Cam Wired Pro - Smart Security Video Camera with 2-LED Lights, Dual Band Wi-Fi, 3D Motion Detection, White",
+   "brand": "Ring",
+   "model": null,
+   "retail": 229.99,
+   "internet_number": "329107033",
+   "reports": 5,
+   "states": {
+    "GA": 1,
+    "TX": 1,
+    "FL": 1,
+    "MA": 1,
+    "IL": 1
+   },
+   "first_reported": "2026-09-30",
+   "last_seen": "2026-10-17",
+   "image": "https://images.thdstatic.com/productImages/3754c738-a5d4-440d-a7c3-04e4ab025b12/svn/white-ring-floodlights-b0cg6vffvl-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006104733/"
+    }
+   ],
+   "upc": "840268940300",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 1,
+   "state_count": 5,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1001028991",
+   "sku_display": "1001-028-991",
+   "name": "Home Decorators Collection Merwry 52 in. Integrated LED Indoor Brushed Nickel Ceiling Fan with Light Kit and Remote Control",
+   "brand": "Home Decorators Collection",
+   "model": null,
+   "retail": 169,
+   "internet_number": "301231210",
+   "reports": 4,
+   "states": {
+    "NY": 2,
+    "PA": 2
+   },
+   "first_reported": "2026-09-30",
+   "last_seen": "2026-10-14",
+   "image": "https://images.thdstatic.com/productImages/f45c6c6b-731c-4656-be8b-05bbc2a2b40b/svn/home-decorators-collection-ceiling-fans-with-lights-sw1422bn-64_300.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1001028991/"
+    }
+   ],
+   "upc": "845952001121",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1003075147",
+   "sku_display": "1003-075-147",
+   "name": "Professional Series SmartWash Advanced Automatic Corded Carpet Cleaner Machine, Auto Mix, Auto Dry, Deep Clean, FH52023V",
+   "brand": "HOOVER",
+   "model": null,
+   "retail": 238.86,
+   "internet_number": null,
+   "reports": 4,
+   "states": {
+    "MA": 1,
+    "TX": 1,
+    "NV": 1,
+    "KY": 1,
+    "CO": 1
+   },
+   "first_reported": "2026-09-09",
+   "last_seen": "2026-09-22",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1003075147/"
+    }
+   ],
+   "upc": "0073502045435",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 5,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1012951109",
+   "sku_display": "1012-951-109",
+   "name": "Medium Anti-Vibration Work Glove",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 30.97,
+   "internet_number": null,
+   "reports": 4,
+   "states": {
+    "NY": 2,
+    "KY": 1,
+    "GA": 1
+   },
+   "first_reported": "2026-09-16",
+   "last_seen": "2026-10-11",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012951109/"
+    }
+   ],
+   "upc": "045242646364",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1012951114",
+   "sku_display": "1012-951-114",
+   "name": "X-Large Anti-Vibration Work Glove",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 29.97,
+   "internet_number": "331064757",
+   "reports": 4,
+   "states": {
+    "GA": 1,
+    "IL": 2,
+    "MA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-19",
+   "image": "https://images.thdstatic.com/productImages/ddf5f71f-b80c-467f-ae88-dd4ae3745241/svn/milwaukee-work-gloves-48-73-8773-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012951114/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1004296835",
+   "sku_display": "1004-296-835",
+   "name": "Smart Lighting Black Motion Activated Outdoor Integrated LED Floodlight Wired",
+   "brand": "Ring",
+   "model": null,
+   "retail": 69.99,
+   "internet_number": "308537582",
+   "reports": 3,
+   "states": {
+    "VA": 1,
+    "IL": 1,
+    "MA": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-14",
+   "image": "https://images.thdstatic.com/productImages/deed8501-4117-4ad7-95cc-4e1111de108b/svn/black-ring-floodlights-5w21s8-ben0-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004296835/"
+    }
+   ],
+   "upc": "842861105216",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1005131036",
+   "sku_display": "1005-131-036",
+   "name": "Blue 8 ft. x 10 ft. Floral Indoor/Outdoor Area Rug",
+   "brand": "StyleWell",
+   "model": null,
+   "retail": 169,
+   "internet_number": "312339299",
+   "reports": 3,
+   "states": {
+    "IL": 1,
+    "NY": 1,
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-14",
+   "image": "https://images.thdstatic.com/productImages/f9cbdabe-7e4d-4b2c-8364-85fd97666e90/svn/blue-stylewell-outdoor-rugs-28017-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005131036/"
+    }
+   ],
+   "upc": "884969280174",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1010094506",
+   "sku_display": "1010-094-506",
+   "name": "StainStriker Portable Corded Upholstery, Car, Rug and Carpet Cleaner with Spot and Pet Odor Remover in White",
+   "brand": "Shark",
+   "model": null,
+   "retail": 139.99,
+   "internet_number": "326510162",
+   "reports": 3,
+   "states": {
+    "GA": 1,
+    "MD": 1,
+    "WA": 1
+   },
+   "first_reported": "2026-09-10",
+   "last_seen": "2026-10-21",
+   "image": "https://images.thdstatic.com/productImages/ecf36b80-246a-4c33-84f5-d3feb6b3d2ed/svn/shark-carpet-cleaners-px201-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010094506/"
+    }
+   ],
+   "upc": "622356605076",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1010815587",
+   "sku_display": "1010-815-587",
+   "name": "Lassen 33 in. Drop-in Single Bowl Granite Composite Kitchen Workstation Sink in Matte Black with Faucet",
+   "brand": "KOHLER",
+   "model": null,
+   "retail": 499.0,
+   "internet_number": null,
+   "reports": 3,
+   "states": {
+    "TX": 2,
+    "NY": 1
+   },
+   "first_reported": "2026-09-21",
+   "last_seen": "2026-09-28",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010815587/"
+    }
+   ],
+   "upc": "195711132598",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1012536755",
+   "sku_display": "1012-536-755",
+   "name": "Bannister 31 in. Single Sink Dusk Bath Vanity with White Cultured Marble Top (Assembled)",
+   "brand": "Glacier Bay",
+   "model": null,
+   "retail": 379.0,
+   "internet_number": null,
+   "reports": 3,
+   "states": {
+    "TX": 2,
+    "MI": 1
+   },
+   "first_reported": "2026-09-26",
+   "last_seen": "2026-09-29",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012536755/"
+    }
+   ],
+   "upc": "008033376451",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1014485906",
+   "sku_display": "1014-485-906",
+   "name": "Highburst 90-Watt Equivalent 6500K E26 4-Panel Adjustable10000-Lumen LED Specialty Light Bulb",
+   "brand": "Bell + Howell",
+   "model": null,
+   "retail": 39.99,
+   "internet_number": "337518194",
+   "reports": 3,
+   "states": {
+    "IL": 2,
+    "NY": 1
+   },
+   "first_reported": "2026-10-12",
+   "last_seen": "2026-10-20",
+   "image": "https://images.thdstatic.com/productImages/468ee9e1-fb41-4771-a457-b228d97f38ee/svn/bell-howell-general-purpose-light-bulbs-2179qph-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014485906/"
+    }
+   ],
+   "upc": "080313021794",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1014784879",
+   "sku_display": "1014-784-879",
+   "name": "Twin Pack 9 in. 1 Light Black LED Rechargeable Sconce Light with Frosted Acrylic Shade",
+   "brand": "Alsy",
+   "model": null,
+   "retail": 49.97,
+   "internet_number": "338651974",
+   "reports": 3,
+   "states": {
+    "PA": 1,
+    "IL": 1,
+    "TX": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-17",
+   "image": "https://images.thdstatic.com/productImages/5698efb8-1a9e-4108-896e-8778af30ea7d/svn/black-alsy-wall-sconces-24401-001-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014784879/"
+    }
+   ],
+   "upc": "022011006864",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 3,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1000236434",
+   "sku_display": "1000-236-434",
+   "name": "10 in. Jobsite Tool Backpack",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 94.97,
+   "internet_number": null,
+   "reports": 2,
+   "states": {
+    "NY": 1,
+    "VA": 1
+   },
+   "first_reported": "2026-10-01",
+   "last_seen": "2026-10-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1000236434/"
+    }
+   ],
+   "upc": "045242333943",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1004296682",
+   "sku_display": "1004-296-682",
+   "name": "Smart Lighting White Motion Activated Outdoor Integrated LED Spotlight Battery",
+   "brand": "Ring",
+   "model": null,
+   "retail": 39.99,
+   "internet_number": "308537853",
+   "reports": 2,
+   "states": {
+    "TN": 1,
+    "IL": 1
+   },
+   "first_reported": "2026-10-16",
+   "last_seen": "2026-10-17",
+   "image": "https://images.thdstatic.com/productImages/384c9180-6a39-41c8-9dda-18b5135718c7/svn/white-ring-floodlights-5b11s8-wen0-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004296682/"
+    }
+   ],
+   "upc": "842861105247",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1004512186",
+   "sku_display": "1004-512-186",
+   "name": "7 Gal. Black Rectangular Trash Can",
+   "brand": "Rubbermaid",
+   "model": null,
+   "retail": 8.39,
+   "internet_number": null,
+   "reports": 2,
+   "states": {
+    "WI": 1,
+    "TX": 1
+   },
+   "first_reported": "2026-09-30",
+   "last_seen": "2026-10-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004512186/"
+    }
+   ],
+   "upc": "086876247091",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006102265",
+   "sku_display": "1006-102-265",
+   "name": "Black Oxide Hex Shank Twist Drill Bit Set (15-Piece)",
+   "brand": "RYOBI",
+   "model": null,
+   "retail": 16.97,
+   "internet_number": "315853371",
+   "reports": 2,
+   "states": {
+    "MO": 1,
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-15",
+   "image": "https://images.thdstatic.com/productImages/b7da6d93-e19e-4d5c-ab56-f21be260224e/svn/ryobi-twist-drill-bits-a971503-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006102265/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "033287199099",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 2,
+   "notes": ""
+  },
+  {
+   "sku": "1006211586",
+   "sku_display": "1006-211-586",
+   "name": "60-Watt Equivalent ST19 Dimmable Cage Filament Clear Glass E26 Vintage Edison LED Light Bulb, Warm White",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 7.79,
+   "internet_number": "316103066",
+   "reports": 2,
+   "states": {
+    "NY": 2
+   },
+   "first_reported": "2026-10-12",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/e06f8924-b07f-4440-947b-86c14acfd072/svn/feit-electric-edison-bulbs-st1960-cl-vg-led-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006211586/"
+    }
+   ],
+   "upc": "017801185683",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1007466104",
+   "sku_display": "1007-466-104",
+   "name": "Bannister 37 in. W x 19 in. D x 35 in. H Single Sink Freestanding Bath Vanity in White with White Cultured Marble Top",
+   "brand": "Glacier Bay",
+   "model": null,
+   "retail": 429.0,
+   "internet_number": null,
+   "reports": 2,
+   "states": {
+    "TX": 2
+   },
+   "first_reported": "2026-09-14",
+   "last_seen": "2026-09-21",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007466104/"
+    }
+   ],
+   "upc": "008033359980",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1007569047",
+   "sku_display": "1007-569-047",
+   "name": "Sous Pro-Style-Single Handle Pull Down Sprayer Kitchen Faucet in Vibrant Brushed Moderne Brass",
+   "brand": "KOHLER",
+   "model": null,
+   "retail": 349,
+   "internet_number": "320146093",
+   "reports": 2,
+   "states": {
+    "RI": 1,
+    "NY": 1
+   },
+   "first_reported": "2026-08-03",
+   "last_seen": "2026-10-14",
+   "image": "https://images.thdstatic.com/productImages/cadf07aa-1780-40cd-81d0-d5830c6cdcf2/svn/vibrant-brushed-moderne-brass-kohler-pull-down-kitchen-faucets-k-r10651-sd-2mb-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007569047/"
+    }
+   ],
+   "upc": "195711012692",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1008470746",
+   "sku_display": "1008-470-746",
+   "name": "M- Spector 4 ft. Inspection Camera Scope",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 129.0,
+   "internet_number": null,
+   "reports": 2,
+   "states": {
+    "FL": 1,
+    "NY": 1
+   },
+   "first_reported": "2026-09-25",
+   "last_seen": "2026-09-28",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008470746/"
+    }
+   ],
+   "upc": "045242614288",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 1,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "712534",
+   "sku_display": "712-534",
+   "name": "800 ft. 10-Gauge Solid SD Bare Copper Grounding Wire",
+   "brand": "Cerrowire",
+   "model": null,
+   "retail": 347.0,
+   "internet_number": null,
+   "reports": 2,
+   "states": {
+    "IL": 1,
+    "MI": 1
+   },
+   "first_reported": "2026-10-01",
+   "last_seen": "2026-10-01",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/712534/"
+    }
+   ],
+   "upc": "048243334209",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 2,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1003092882",
+   "sku_display": "1003-092-882",
+   "name": "Smooth Black 2 ft. 2 in. x Your Choice Length Roll Stair Runner",
+   "brand": "TrafficMaster",
+   "model": null,
+   "retail": 4.58,
+   "internet_number": "304613565",
+   "reports": 1,
+   "states": {
+    "NM": 1
+   },
+   "first_reported": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "image": "https://images.thdstatic.com/productImages/58dbe78c-9510-44c1-ba68-aa11ee979dad/svn/black-trafficmaster-stair-runners-mt4000129-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "066296110724",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1003607593",
+   "sku_display": "1003-607-593",
+   "name": "Silver Bullet 3/4 in. Dia x 50 ft. Lightweight Kink-Free Expandable Water Garden Hose",
+   "brand": "Pocket Hose",
+   "model": null,
+   "retail": 29.99,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "FL": 1
+   },
+   "first_reported": "2026-09-29",
+   "last_seen": "2026-09-29",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1003607593/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 1,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1004296673",
+   "sku_display": "1004-296-673",
+   "name": "Smart Lighting White Motion Activated Outdoor Integrated LED Flood Light",
+   "brand": "Ring",
+   "model": null,
+   "retail": 69.99,
+   "internet_number": "308537544",
+   "reports": 1,
+   "states": {
+    "AZ": 1
+   },
+   "first_reported": "2026-10-16",
+   "last_seen": "2026-10-16",
+   "image": "https://images.thdstatic.com/productImages/c7259a0e-75a3-4b3b-8b0f-466bad755f2c/svn/white-ring-floodlights-5w21s8-wen0-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004296673/"
+    }
+   ],
+   "upc": "842861105209",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1004953434",
+   "sku_display": "1004-953-434",
+   "name": "3.2 lbs. Outdoor Firelogs (6-Pack)",
+   "brand": "Duraflame",
+   "model": null,
+   "retail": 29.98,
+   "internet_number": "311986386",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/32cbb6f9-e5e4-406c-ad79-e21cf73421ea/svn/duraflame-firewood-06287-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1004953434/"
+    }
+   ],
+   "upc": "041137062875",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1005101798",
+   "sku_display": "1005-101-798",
+   "name": "Jasper Gray 7 ft. x 10 ft. Border Indoor/Outdoor Area Rug",
+   "brand": "StyleWell",
+   "model": null,
+   "retail": 152.1,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005101798/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1005155513",
+   "sku_display": "1005-155-513",
+   "name": "5 lbs. Plug Duct Seal Compound",
+   "brand": "Gardner Bender",
+   "model": null,
+   "retail": 19.98,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-09-29",
+   "last_seen": "2026-09-29",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005155513/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1005288485",
+   "sku_display": "1005-288-485",
+   "name": "ONE+ 18V Cordless Hybrid LED Tripod Stand Light (Tool Only)",
+   "brand": "RYOBI",
+   "model": null,
+   "retail": 139,
+   "internet_number": "312860164",
+   "reports": 1,
+   "states": {
+    "PA": 1
+   },
+   "first_reported": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "image": "https://images.thdstatic.com/productImages/6f708b7e-ed02-4d65-ab72-b0e67f7f9f1e/svn/ryobi-jobsite-lighting-p782-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005288485/"
+    }
+   ],
+   "upc": "033287179206",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1005432129",
+   "sku_display": "1005-432-129",
+   "name": "100-Watt Equivalent ST19 Dimmable Straight Filament Clear Glass E26 Vintage Edison LED Light Bulb, Soft White 2700K",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 12.47,
+   "internet_number": "313397562",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/30e40aae-3878-4e54-9601-9804a3771fac/svn/feit-electric-decorative-light-bulbs-st19100cl-927ca-hdrp-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005432129/"
+    }
+   ],
+   "upc": "017801182057",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1005432173",
+   "sku_display": "1005-432-173",
+   "name": "25-Watt Equivalent T10 Dimmable Spiral Filament Large Clear Glass E26 Vintage Edison LED Light Bulb, Warm White",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 10.97,
+   "internet_number": "313402118",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/7fb4367b-ea76-4302-9030-d7e99dde6ae1/svn/feit-electric-edison-bulbs-t10l-s-cl-led-hdrp-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005432173/"
+    }
+   ],
+   "upc": "017801181623",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1005432205",
+   "sku_display": "1005-432-205",
+   "name": "100-Watt Equivalent ST19 Dimmable Straight Filament Amber Glass E26 Vintage Edison LED Light Bulb, Warm White 3000K",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 12.47,
+   "internet_number": "313397561",
+   "reports": 1,
+   "states": {
+    "PA": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/4d7c03e1-730c-4e31-8fe1-183000d8bd00/svn/feit-electric-decorative-light-bulbs-st19100-led-hdrp-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005432205/"
+    }
+   ],
+   "upc": "017801181883",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1005432339",
+   "sku_display": "1005-432-339",
+   "name": "40-Watt Equivalent T14 Dimmable Spiral Filament Clear Glass E26 Vintage Edison LED Light Bulb, Warm White",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 7.97,
+   "internet_number": "313402093",
+   "reports": 1,
+   "states": {
+    "PA": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/6329207e-b165-4840-935b-53da123d25fa/svn/feit-electric-edison-bulbs-t1440-s-cl-led-hdrp-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005432339/"
+    }
+   ],
+   "upc": "017801181647",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1005432405",
+   "sku_display": "1005-432-405",
+   "name": "60-Watt Equivalent ST19 Dimmable Straight Filament Clear Glass E26 Vintage Edison LED Light Bulb, Bright White 3000K",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 9.97,
+   "internet_number": "313402154",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/02ccde5d-3b2c-4afb-beb9-bda8935b2450/svn/feit-electric-decorative-light-bulbs-st1960-cl-930ca-hdrp-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1005432405/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006008868",
+   "sku_display": "1006-008-868",
+   "name": "ONE+ 18V Cordless 4 in. Clamp Fan (Tool Only)",
+   "brand": "RYOBI",
+   "model": null,
+   "retail": 19.97,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "AL": 1
+   },
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006008868/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006104734",
+   "sku_display": "1006-104-734",
+   "name": "Floodlight Cam Wired Pro - Smart Security Video Camera with 2 LED Lights, Dual Band Wifi, 3D Motion Detection, Black",
+   "brand": "Ring",
+   "model": null,
+   "retail": 229.99,
+   "internet_number": "315975474",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/2aaec430-dc7f-4284-9abc-823fbcabebac/svn/black-ring-floodlights-b08fcwqwdz-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006104734/"
+    }
+   ],
+   "upc": "840080570099",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006211564",
+   "sku_display": "1006-211-564",
+   "name": "60-Watt Equivalent ST19 Dimmable Spiral Filament Clear Glass E26 Vintage Edison LED Light Bulb, Bright White",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 8.97,
+   "internet_number": "316107150",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/a6d17a1c-d9c7-44ec-8e06-c5298947770f/svn/feit-electric-edison-bulbs-st1960-s-cl930cahdrp-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006211564/"
+    }
+   ],
+   "upc": "017801185713",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006211595",
+   "sku_display": "1006-211-595",
+   "name": "60-Watt Equivalent G30 Dimmable Cage Filament Clear Glass E26 Vintage Edison LED Light Bulb, Warm White",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 7.97,
+   "internet_number": "316091508",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/716b0338-d8ce-45ea-8cfe-74499f41da21/svn/feit-electric-edison-bulbs-g3060-cl-vg-led-hdrp-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006211595/"
+    }
+   ],
+   "upc": "017801185607",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006211600",
+   "sku_display": "1006-211-600",
+   "name": "40-Watt Equivalent T6 Dimmable Straight Filament Clear Glass E12 Candelabra Edison LED Light Bulb, Warm White (4-Pack)",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 12.98,
+   "internet_number": "316115850",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/78f3f6f6-22cd-4c07-8087-e3f7e4df618c/svn/feit-electric-edison-bulbs-t640-cl-vg-ledhdrp-4-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006211600/"
+    }
+   ],
+   "upc": "017801185867",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006211631",
+   "sku_display": "1006-211-631",
+   "name": "40-Watt Equivalent T14 Dimmable Straight Filament Clear Glass E26 Vintage Edison LED Light Bulb, Daylight 5000K (4-Pack)",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 14.97,
+   "internet_number": "316113210",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/8c82d8ca-dbd4-4cb4-8ded-49ce9f461405/svn/feit-electric-edison-bulbs-t1440-950ca-hdrp-4-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006211631/"
+    }
+   ],
+   "upc": "017801185799",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006310069",
+   "sku_display": "1006-310-069",
+   "name": "34 in. Farmhouse/Apron-Front Double Bowl White Fireclay Kitchen Sink with Bottom Grid",
+   "brand": "Glacier Bay",
+   "model": null,
+   "retail": 399.0,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "MA": 1
+   },
+   "first_reported": "2026-09-22",
+   "last_seen": "2026-09-22",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006310069/"
+    }
+   ],
+   "upc": "191500013147",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006337407",
+   "sku_display": "1006-337-407",
+   "name": "60-Watt Equivalent ST19 Straight Filament Dusk to Dawn Clear Glass E26 Vintage Edison LED Light Bulb, Daylight",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 9.97,
+   "internet_number": "316792230",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/bd36c777-dd4f-4049-b122-ee8c7c1f80fb/svn/feit-electric-decorative-light-bulbs-st19cl950ca-dd-hdrp-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006337407/"
+    }
+   ],
+   "upc": "017801172768",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006581635",
+   "sku_display": "1006-581-635",
+   "name": "Black/Brown 8 x 10 Border Indoor/Outdoor Area Rug",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 169.0,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006581635/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "017411156912",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "notes": ""
+  },
+  {
+   "sku": "1007532507",
+   "sku_display": "1007-532-507",
+   "name": "52 in. Corwin Indoor/Outdoor Matte White LED Ceiling Fan with Light Kit",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 119,
+   "internet_number": "319830775",
+   "reports": 1,
+   "states": {
+    "TN": 1
+   },
+   "first_reported": "2026-10-16",
+   "last_seen": "2026-10-16",
+   "image": "https://images.thdstatic.com/productImages/79c81ccc-65c2-4647-9143-df03fca0d160/svn/hampton-bay-ceiling-fans-with-lights-56059-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007532507/"
+    }
+   ],
+   "upc": "082392560591",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1007608683",
+   "sku_display": "1007-608-683",
+   "name": "PACKOUT Small Straight Utility Hook",
+   "brand": "Milwaukee",
+   "model": null,
+   "retail": 12.97,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "NJ": 1
+   },
+   "first_reported": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007608683/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1007712035",
+   "sku_display": "1007-712-035",
+   "name": "X Series 24 Smokeless Fire Pit in Corten Steel",
+   "brand": "Breeo",
+   "model": null,
+   "retail": 599,
+   "internet_number": "320295855",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/605705cd-e9bd-4166-93b9-be248c50a1f6/svn/patina-breeo-wood-burning-fire-pits-br-x24p-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007712035/"
+    }
+   ],
+   "upc": "850027772042",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1007712062",
+   "sku_display": "1007-712-062",
+   "name": "Outpost Grill 24",
+   "brand": "Breeo",
+   "model": null,
+   "retail": 223.06,
+   "internet_number": "320296996",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/47edb033-f33a-41cc-a24a-f19706186d22/svn/stainless-steel-breeo-wood-burning-fire-pits-br-op24-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007712062/"
+    }
+   ],
+   "upc": "854492008569",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1008050496",
+   "sku_display": "1008-050-496",
+   "name": "Firestarter Cube Wood and Charcoal Firelighters (18-Count)",
+   "brand": "Duraflame",
+   "model": null,
+   "retail": 10.98,
+   "internet_number": "320574016",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/4a646eaa-9857-4bc7-90aa-64a6d4140ded/svn/duraflame-firewood-00845-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008050496/"
+    }
+   ],
+   "upc": "041137018452",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1008056500",
+   "sku_display": "1008-056-500",
+   "name": "Bannister 37 in. W x 19 in. D x 35 in. H Single Sink Bath Vanity in Pearl Gray with White Cultured Marble Top",
+   "brand": "Glacier Bay",
+   "model": null,
+   "retail": 429.0,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "TX": 1
+   },
+   "first_reported": "2026-09-21",
+   "last_seen": "2026-09-21",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008056500/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1009604005",
+   "sku_display": "1009-604-005",
+   "name": "60-Watt Equivalent ST19 Straight Filament Dusk to Dawn Clear Glass E26 Vintage Edison LED Light Bulb, Bright White 3000K",
+   "brand": "Feit Electric",
+   "model": null,
+   "retail": 9.97,
+   "internet_number": "325372693",
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "image": "https://images.thdstatic.com/productImages/4d6bf696-b883-4050-9b37-1b4f5241a580/svn/feit-electric-edison-bulbs-st19cl930ca-dd-hdrp-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1009604005/"
+    }
+   ],
+   "upc": "017801186185",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1009868000",
+   "sku_display": "1009-868-000",
+   "name": "Warrington 24.5 in. Black Table Lamp Set with White Fabric Shades and (Set of 2)",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 49.97,
+   "internet_number": "326130266",
+   "reports": 1,
+   "states": {
+    "TX": 1
+   },
+   "first_reported": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "image": "https://images.thdstatic.com/productImages/df7b8214-c8ac-4857-83b3-4cb2866f27ae/svn/hampton-bay-lamp-sets-24245-000-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "022011004235",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1009912678",
+   "sku_display": "1009-912-678",
+   "name": "76-Qt. Stacker Box - Ink Lid",
+   "brand": "Sterilite",
+   "model": null,
+   "retail": 19.98,
+   "internet_number": "326244072",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/12e645ad-c1fa-4625-a420-2d251a9a7439/svn/ink-sterilite-storage-bins-14764k06-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1009912678/"
+    }
+   ],
+   "upc": "073149147646",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1010043890",
+   "sku_display": "1010-043-890",
+   "name": "Battery Doorbell Pro-Smart Wireless Doorbell Camera with Radar-powered 3D Motion Detection and Head-to-Toe HD plus Video",
+   "brand": "Ring",
+   "model": null,
+   "retail": 199.99,
+   "internet_number": "326594187",
+   "reports": 1,
+   "states": {
+    "MA": 1
+   },
+   "first_reported": "2026-10-16",
+   "last_seen": "2026-10-16",
+   "image": "https://images.thdstatic.com/productImages/c063f250-9e48-4159-9a60-46b809ef233d/svn/satin-nickel-ring-doorbell-cameras-b0b2by4zg7-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010043890/"
+    }
+   ],
+   "upc": "840268988401",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1010234419",
+   "sku_display": "1010-234-419",
+   "name": "Chevron Dusk Cherry 22 MIL x 12 in. W x 28 in. L Click Lock Waterproof Luxury Vinyl Plank Flooring (18.9 sq. ft./Case)",
+   "brand": "Lifeproof",
+   "model": "I06204C22",
+   "retail": 71.63,
+   "internet_number": "327186718",
+   "reports": 1,
+   "states": {
+    "AL": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/b9555a83-a3eb-42e0-b834-fe402e3b3159/svn/dusk-cherry-lifeproof-vinyl-plank-flooring-i06204c22-64_400.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010234419/"
+    }
+   ],
+   "upc": "088969139726",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1010335854",
+   "sku_display": "1010-335-854",
+   "name": "Profile II 50 Qt. Chest Cooler",
+   "brand": "IGLOO",
+   "model": null,
+   "retail": 54.98,
+   "internet_number": "327369942",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/c6e76a3e-7311-42b6-bd83-e758fe4c782c/svn/grays-igloo-chest-coolers-00050354-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1010335854/"
+    }
+   ],
+   "upc": "034223503543",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1012554129",
+   "sku_display": "1012-554-129",
+   "name": "Power Flush 0.95/1.28 GPF Dual Flush Elongated Toilet in White",
+   "brand": "Glacier Bay",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "ME": 1
+   },
+   "first_reported": "2026-09-23",
+   "last_seen": "2026-09-23",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012554129/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1013986442",
+   "sku_display": "1013-986-442",
+   "name": "Lachlan Large Beige Lavastone Round Planter with Drainage Plug (16 in. L x 16 in. W x 13 in. H)",
+   "brand": "Vigoro",
+   "model": null,
+   "retail": 79.97,
+   "internet_number": "335087336",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/161d69d9-c5c5-4fb9-b36e-3e3d9e36176f/svn/stone-vigoro-plant-pots-hd1476p-038-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1013986442/"
+    }
+   ],
+   "upc": "810147282098",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1014378814",
+   "sku_display": "1014-378-814",
+   "name": "Paola 10 Lite 36 in. x 80 in. Bianco Noble 10-Lite Clear Glass Composite Solid Core Wood Interior Door Slab",
+   "brand": "Belldinni",
+   "model": null,
+   "retail": 631.0,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "TN": 1
+   },
+   "first_reported": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014378814/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1014855340",
+   "sku_display": "1014-855-340",
+   "name": "40-Watt Equivalent A19 A-Style Ultra Definition Dimmable Clear Glass E26 LED Light Bulb Daylight 5000K (2-Pack)",
+   "brand": "Philips",
+   "model": null,
+   "retail": 8.98,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "TX": 1
+   },
+   "first_reported": "2026-10-03",
+   "last_seen": "2026-10-03",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014855340/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1015736595",
+   "sku_display": "1015-736-595",
+   "name": "18 ft. Reach Aluminum 5-in-1 Multi-Position Pro Ladder with Built-in Leveling, 375 lb. Load Capacity Type IAA Duty",
+   "brand": "Werner",
+   "model": null,
+   "retail": 269.0,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "CA": 1
+   },
+   "first_reported": "2026-09-25",
+   "last_seen": "2026-09-25",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1015736595/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1015796668",
+   "sku_display": "1015-796-668",
+   "name": "18 Gal. Haul-it-All Moving Tote Bag, Blue 2-Pack",
+   "brand": "DURASACK",
+   "model": null,
+   "retail": 7.98,
+   "internet_number": "338529821",
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "image": "https://images.thdstatic.com/productImages/9cbb9f07-1aba-4438-b7b8-606f29751ac0/svn/durasack-storage-bins-ib-36x13-5x8-5blu-2pk-64_1000.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    },
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1015796668/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "653212002449",
+   "upc_sources": [
+    "Penny Recon",
+    "PennyCentral"
+   ],
+   "upc_verified": true,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "notes": ""
+  },
+  {
+   "sku": "308183",
+   "sku_display": "308-183",
+   "name": "10 in. x 14 in. 2D Shaped for Sale Sign",
+   "brand": "Everbilt",
+   "model": null,
+   "retail": 3.47,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "MA": 1
+   },
+   "first_reported": "2026-09-22",
+   "last_seen": "2026-09-22",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/308183/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "429753",
+   "sku_display": "429-753",
+   "name": "15 Amp Corded 13 in. Thickness Corded Planer",
+   "brand": "RIDGID",
+   "model": null,
+   "retail": 449.0,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "NY": 1
+   },
+   "first_reported": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/429753/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "476967",
+   "sku_display": "476-967",
+   "name": "2 in. x 12 in. x 8 ft. Silver Select Appearance Rougher Headed Green Western Red Cedar Board",
+   "brand": "Unknown",
+   "model": null,
+   "retail": 32.98,
+   "internet_number": null,
+   "reports": 1,
+   "states": {
+    "GA": 1
+   },
+   "first_reported": "2026-10-02",
+   "last_seen": "2026-10-02",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/476967/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "873436",
+   "sku_display": "873-436",
+   "name": "100 ft. 18 RG6 Dual Shield CU CATV CM/CL2 Coaxial Cable in White",
+   "brand": "Southwire",
+   "model": null,
+   "retail": 28.62,
+   "internet_number": "202316594",
+   "reports": 1,
+   "states": {
+    "TX": 1
+   },
+   "first_reported": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "image": "https://images.thdstatic.com/productImages/4aa84a7e-07f8-41ef-8a16-2006d70f47ce/svn/southwire-coaxial-wires-56918343-64_600.jpg",
+   "sources": [
+    {
+     "name": "PennyCentral",
+     "url": "https://www.pennycentral.com/penny-list"
+    }
+   ],
+   "upc": "032886861086",
+   "upc_sources": [
+    "PennyCentral"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 1,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1006581634",
+   "sku_display": "1006-581-634",
+   "name": "Aqua/Blue 5 x 7 Border Indoor/Outdoor Area Rug",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006581634/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "017411156929",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "notes": ""
+  },
+  {
+   "sku": "1006581645",
+   "sku_display": "1006-581-645",
+   "name": "Aqua/Blue 8 x 10 Border Indoor/Outdoor Area Rug",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1006581645/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "017411156936",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "notes": ""
+  },
+  {
+   "sku": "1007077839",
+   "sku_display": "1007-077-839",
+   "name": "Higgins 23.75 in. Black Tripod Table Lamp with Round Base",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1007077839/"
+    }
+   ],
+   "upc": "022011001791",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1008149552",
+   "sku_display": "1008-149-552",
+   "name": "Transom 26 in. 4-Speeds Window Fan with Remote Control Reversible Exhaust Mode Weather Resistant Case Whole Room",
+   "brand": "Vornado",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1008149552/"
+    }
+   ],
+   "upc": "043765015681",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1009127357",
+   "sku_display": "1009-127-357",
+   "name": "15 ft. 16/3 Light Duty Indoor Multi-Outlet Extension Cord with Banana Tap, Black",
+   "brand": "HDX",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1009127357/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "756847002898",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "notes": ""
+  },
+  {
+   "sku": "1009819898",
+   "sku_display": "1009-819-898",
+   "name": "Tan 9 x 12 Trellis Indoor/Outdoor Area Rug",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1009819898/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "017411210287",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "notes": ""
+  },
+  {
+   "sku": "1012198313",
+   "sku_display": "1012-198-313",
+   "name": "36 in. W x 12 in. D x 12 in. H Ready to Assemble Wall Bridge Kitchen Cabinet in Unfinished with CLICKREADY Technology",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012198313/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "notes": ""
+  },
+  {
+   "sku": "1012198353",
+   "sku_display": "1012-198-353",
+   "name": "30 in. W x 12 in. D x 12 in. H Ready to Assemble Wall Bridge Kitchen Cabinet in Unfinished with CLICKREADY Technology",
+   "brand": "Hampton Bay",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012198353/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "850063902069",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "notes": ""
+  },
+  {
+   "sku": "1012945331",
+   "sku_display": "1012-945-331",
+   "name": "FlexBreeze 13 in. Portable 5 Fan Speeds Pedestal Fan in Dark Grey with Up to 24 hours of Cordless Runtime",
+   "brand": "Shark",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1012945331/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "622356629201",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "notes": ""
+  },
+  {
+   "sku": "1014920208",
+   "sku_display": "1014-920-208",
+   "name": "Ryobi FRAMEWORK Customizable Workbench Kit",
+   "brand": "",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-09-28",
+   "last_seen": "2026-09-28",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014920208/"
+    }
+   ],
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "receipt_verified": null,
+   "notes": ""
+  },
+  {
+   "sku": "1014945661",
+   "sku_display": "1014-945-661",
+   "name": "11 in. x 1.25 in. x 7.2 in. Rectangular Dual Mount Address Plaque Sign Kit",
+   "brand": "Everbilt",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/1014945661/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "notes": ""
+  },
+  {
+   "sku": "925564",
+   "sku_display": "925-564",
+   "name": "8 in. x 8 in. x 8 in. Gray Concrete Block",
+   "brand": "Angelus Block",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/925564/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": null,
+   "upc_sources": [],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "notes": ""
+  },
+  {
+   "sku": "945150",
+   "sku_display": "945-150",
+   "name": "28 in. H x 10 ft. L Cathedral Steel Wire Folding Garden Fence",
+   "brand": "Vigoro",
+   "model": null,
+   "retail": 0.0,
+   "internet_number": null,
+   "reports": 0,
+   "states": {},
+   "first_reported": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "image": null,
+   "sources": [
+    {
+     "name": "Penny Recon",
+     "url": "https://www.pennyrecon.com/item/945150/"
+    },
+    {
+     "name": "Penny Recon receipts (week of 2026-10-05)",
+     "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+    }
+   ],
+   "receipt_verified": {
+    "week_of": "2026-10-05",
+    "url": "https://www.pennyrecon.com/reports/2026-10-05/"
+   },
+   "upc": "643231510414",
+   "upc_sources": [
+    "Penny Recon"
+   ],
+   "upc_verified": false,
+   "upc_alt": [],
+   "florida_reports": 0,
+   "state_count": 0,
+   "notes": ""
+  }
+ ]
+}

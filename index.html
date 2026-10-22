@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f96302">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Penny Scan">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icon-192.png">
+<title>Penny Scanner</title>
+<style>
+:root{--or:#f96302;--bg:#111;--card:#1d1d1f;--line:#333;--tx:#f2f2f2;--mut:#a1a1a6;--ok:#1fbf5a;--no:#e5484d;--maybe:#f5a623}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text",Segoe UI,Roboto,sans-serif;-webkit-text-size-adjust:100%}
+header{background:var(--or);color:#fff;padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;display:flex;align-items:center;justify-content:space-between}
+header h1{font-size:19px;margin:0}
+header small{opacity:.9;font-size:12px}
+nav{display:flex;background:#000;border-bottom:1px solid var(--line)}
+nav button{flex:1;background:none;border:0;color:var(--mut);padding:12px;font-size:16px;font-weight:600}
+nav button.on{color:#fff;box-shadow:inset 0 -3px 0 var(--or)}
+main{padding:14px 14px calc(env(safe-area-inset-bottom) + 30px);max-width:640px;margin:0 auto}
+.hidden{display:none!important}
+.btn{display:block;width:100%;border:0;border-radius:14px;padding:16px;font-size:18px;font-weight:700;background:var(--or);color:#fff}
+.btn.sec{background:#2c2c2e;font-size:16px;font-weight:600}
+.row{display:flex;gap:8px}
+.row>*{flex:1}
+#videoWrap{position:relative;border-radius:16px;overflow:hidden;background:#000;aspect-ratio:3/4;max-height:58vh;margin:0 auto 10px}
+#video{width:100%;height:100%;object-fit:cover}
+#reticle{position:absolute;left:8%;right:8%;top:38%;height:24%;border:3px solid rgba(249,99,2,.9);border-radius:12px;box-shadow:0 0 0 999px rgba(0,0,0,.35)}
+#scanHint{position:absolute;bottom:8px;left:0;right:0;text-align:center;font-size:13px;color:#fff;text-shadow:0 1px 2px #000}
+input[type=text],input[type=search],select{width:100%;font-size:17px;padding:13px;border-radius:12px;border:1px solid var(--line);background:#000;color:var(--tx)}
+.card{background:var(--card);border-radius:16px;padding:14px;margin:12px 0}
+.mut{color:var(--mut)}
+.small{font-size:13px}
+#result .banner{border-radius:16px;padding:18px 14px;text-align:center;font-weight:800;font-size:28px;letter-spacing:.5px;color:#fff}
+.banner.ok{background:var(--ok)} .banner.no{background:var(--no)} .banner.maybe{background:var(--maybe);color:#111!important}
+.banner .sub{display:block;font-size:14px;font-weight:600;letter-spacing:0;margin-top:4px;opacity:.95}
+.item h3{margin:4px 0 6px;font-size:18px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:15px}
+.kv b{color:var(--mut);font-weight:500}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 7px;border-radius:999px;background:#333;margin:2px 4px 2px 0}
+.tag.old{background:#3a3a3c;color:#a1a1a6} .tag.fl{background:#0a84ff;color:#fff} .tag.ok{background:#174d2a;color:#7ee2a0} .tag.rc{background:#4a3500;color:#ffcf66}
+.note{border-left:4px solid var(--maybe);background:#221b0c;padding:10px 12px;border-radius:8px;font-size:14px;margin-top:12px}
+.li{display:flex;gap:10px;padding:12px 0;border-bottom:1px solid var(--line)}
+.li img{width:56px;height:56px;object-fit:contain;background:#fff;border-radius:8px;flex:none}
+.li .t{font-weight:600;font-size:15px}
+.li .m{font-size:13px;color:var(--mut)}
+a{color:#64b5ff}
+code{font-family:ui-monospace,Menlo,monospace;font-size:15px;color:#ffcf99}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#333;color:#fff;padding:10px 16px;border-radius:999px;font-size:14px;z-index:9}
+</style>
+</head>
+<body>
+<div style="position:sticky;top:0;z-index:5"><header><div><h1>🪙 Penny Scanner</h1><small id="storeLine">Home Depot Clermont #6375</small></div><small id="updated">loading…</small></header>
+<nav><button id="tabScan" class="on">Scan</button><button id="tabList">Penny List</button></nav></div>
+<main>
+ <section id="scanView">
+  <div id="videoWrap" class="hidden"><video id="video" playsinline muted autoplay></video><div id="reticle"></div><div id="scanHint">Center the barcode in the box</div></div>
+  <button id="startBtn" class="btn">📷 Scan a barcode</button>
+  <div class="row" style="margin-top:8px">
+   <button id="stopBtn" class="btn sec hidden">Stop camera</button>
+   <label class="btn sec" style="text-align:center">🖼️ Scan from photo<input id="photoInput" type="file" accept="image/*" capture="environment" hidden></label>
+  </div>
+  <div class="card">
+   <label for="manual" class="small mut">Or type the SKU / UPC from the label (dashes OK)</label>
+   <form id="manualForm" class="row" style="margin-top:6px"><input id="manual" type="text" inputmode="numeric" autocomplete="off" placeholder="e.g. 1008-625-777"><button class="btn" style="flex:0 0 90px">Check</button></form>
+  </div>
+  <div id="result"></div>
+  <div id="history" class="card hidden"><div class="small mut">Recent checks</div><div id="histList"></div></div>
+ </section>
+ <section id="listView" class="hidden">
+  <input id="search" type="search" placeholder="Search name, brand, SKU, UPC…">
+  <div class="row" style="margin-top:8px">
+   <select id="sort"><option value="recent">Last seen</option><option value="reports">Most reports</option><option value="fl">Florida first</option><option value="price">Highest retail</option><option value="name">Name A–Z</option></select>
+   <select id="filter"><option value="all">All items</option><option value="fl">Florida reports</option><option value="upc">Has UPC</option><option value="rc">Receipt-checked</option></select>
+  </div>
+  <div id="count" class="small mut" style="margin:10px 0 0"></div>
+  <div id="list"></div>
+ </section>
+ <p class="small mut" style="margin-top:24px">Data: crowdsourced reports from <a href="https://www.pennycentral.com/penny-list" target="_blank" rel="noopener">PennyCentral</a> and <a href="https://www.pennyrecon.com/" target="_blank" rel="noopener">Penny Recon</a>. Not affiliated with The Home Depot. A list match is a lead, not a price.</p>
+</main>
+<div id="toast" class="hidden"></div>
+<script src="vendor/zxing.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
